@@ -324,6 +324,11 @@ class ApiDoc
     {
         return $this->input;
     }
+    
+    public function setInput($input)
+    {
+        $this->input = $input;
+    }
 
     /**
      * @return string|null
@@ -331,6 +336,11 @@ class ApiDoc
     public function getOutput()
     {
         return $this->output;
+    }
+
+    public function setOutput($output)
+    {
+        $this->output = $output;
     }
 
     /**
